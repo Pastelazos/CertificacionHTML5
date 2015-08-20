@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+
+}
+
+body {
+	background: white;
+	margin: 5%;
+}
+h1 {
+	font-family: 'Sigmar One', cursive;
+	 -vendor-animation-duration: 30s;
+  -vendor-animation-delay: 20s;
+  -vendor-animation-iteration-count: finite;
+}
+
+header {
+	display: inline-block;
+	color: white;
+	background: #01579B;
+	position: relative;
+	vertical-align: middle;
+	padding-left: 30%;
+
+
+}
+
+header img{
+	display: inline-block;
+	width: 20%;
+	position: relative;
+	vertical-align: middle;
+	
+
+
+}
+
+header h1{
+	display: inline-block;
+	width: 50%;
+	position: relative;
+	vertical-align: middle;
+
+	
+	
+}
+
+nav {
+	background: #E91E63;
+	text-align: center;
+	padding: 2em;
+	color: white;
+	
+}
+
+li{
+	display: inline;
+	padding: 1em;
+}
+
+footer {
+	padding:5%;
+	background: #CFD8DC;
+	position: relative;
+	width: 90%;
+	bottom: 0;
+}
+
+.container {
+	background: #FF3D00;
+	color: white;
+	padding: 2em;
+	font-style: bold;
+	font-size: 20px;
+	font-family: 'Arial', cursive;
+	display: inline-block;
+	position: relative;
+
+}
+
+.containerp {
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	vertical-align: middle;
+	background: rgba(255,250,255,.3);
+}
+
+.containerp2 {
+	display: inline-block;
+	width: 50%;
+	position: relative;
+	vertical-align: middle;
+}
+
+.video {
+	background: rgba(0,0,0,.1);
+	padding: 1em;
+	text-align: center;
+
+}
+
+.formulario {
+	background: #00BCD4;
+	padding: 2em;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-size: 20px;
+}
+
+
+@media screen and (min-width: 800px){
+	.video {
+		background: white;
+	}
+
+@media screen and (min-width: 300px){
+	.video {
+		background: black;
+	}
+	
+}
